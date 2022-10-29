@@ -1,9 +1,10 @@
 #run
 setup-xorg-base
-apk add mesa-dri-gallium
+apk add webkit2gtk\ 
+	mesa-dri-gallium
 
 #build
-apk add webkit2gtk \
+apk add webkit2gtk-dev \
 	libc-dev
 
 #extra
