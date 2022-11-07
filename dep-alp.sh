@@ -1,6 +1,6 @@
 #run
 setup-xorg-base
-apk add webkit2gtk\ 
+apk add webkit2gtk \
 	mesa-dri-gallium
 
 #build

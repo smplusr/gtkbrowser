@@ -13,6 +13,7 @@ CDIR	:= -I /usr/include/gtk-3.0/		\
 
 
 all:	main.elf
+	mv $< /usr/bin/gtkbrowser
 
 clean:	*.elf
 	$(RM) $<
